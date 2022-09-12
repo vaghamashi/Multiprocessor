@@ -1,0 +1,59 @@
+#include <iostream>
+
+using namespace std;
+
+class A{
+    
+    public :
+    
+    void fun (int a,int b){
+        
+        cout << "Your Division : "<<a/b;
+        
+    }
+    
+    void fun (int a,int b ,int c){
+        
+        cout << "Your subtraction of 3 Number : "<< a-b-c;
+        
+    }
+    
+    void fun (int a,int b ,int c,int d ){
+        
+        cout << "Your Multiplication of 4 Number : "<< a*b*c*d;
+        
+    }
+    
+    void fun (int a,int b ,int c,int d ,int e){
+        
+        cout << "Your Addition of 4 Number : "<< a+b+c+d+e;
+        
+    }
+    
+};
+
+int main() {
+    
+    int a,b,c,d,e;
+    
+    cout << "Enter The Value of A : ";
+    cin >> a;
+    
+     cout << "Enter The Value of B : ";
+    cin >> b;
+    
+     cout << "Enter The Value of C : ";
+    cin >> c;
+    
+     cout << "Enter The Value of D : ";
+    cin >> d;
+    
+     cout << "Enter The Value of E : ";
+    cin >> e;
+    
+    A arithmetic;
+    
+    arithmetic.fun(a,b);
+
+    return 0;
+}
